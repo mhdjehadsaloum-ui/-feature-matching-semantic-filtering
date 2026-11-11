@@ -1,0 +1,27 @@
+# Jupyter
+notebook
+ipykernel
+ipywidgets
+
+# Daten und Auswertung
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+openpyxl
+
+# Computer Vision
+opencv-contrib-python
+kornia
+faiss-cpu
+
+# SuperPoint (LightGlue-Paket)
+git+https://github.com/cvg/LightGlue.git
+
+# PyTorch: Standardinstallation (CPU).
+# Fuer die GPU-Messung stattdessen die Variante passend zur CUDA-Version von
+# https://pytorch.org/get-started/locally/ installieren, z. B.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+torch
+torchvision
